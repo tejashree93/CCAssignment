@@ -13,11 +13,6 @@ public class Solution03 {
     public static void main (String args[]) throws IOException
     {
         Scanner sc = new Scanner (System.in);
-        /*System.out.println("Enter the String:");
-        String l=sc.nextLine(); 
-        StringBuffer ns=new StringBuffer(l);
-        String sol=urling(ns);
-        System.out.println("New URLed string is: "+sol);*/
         System.out.println("Enter String with padding and length:");
         String l=sc.nextLine();
         int len=sc.nextInt();
