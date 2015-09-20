@@ -24,6 +24,8 @@ public class Solution01 {
     }
     public static boolean isUnique(String st)
     {
+        if(st.length()>128)                 // there can only be 128 unique characters
+            return false;
         for(int i=0; i<st.length(); i++)    // for all characters in the string we check whether the last Index of their occurrence is the same as the first index. 
         {                                   // if it isn't same, it means there are more than one occurrence of that character.
             if(i!=st.lastIndexOf(st.charAt(i)))     
