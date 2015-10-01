@@ -9,6 +9,7 @@ import java.util.*;
  *
  * @author Tejashree pc
  */
+ // Referred from book
 public class Solution10 {
     static TNode1 root = null;
     public static void main(String args[]) throws IOException
@@ -29,7 +30,7 @@ public class Solution10 {
         }
         for(int i=0; i<n; i++)
         {
-            System.out.println("The rank of"+a[i]+" is: "+getRankN(a[i]));
+            System.out.println("The rank of "+a[i]+" is: "+getRankN(a[i]));
         }
     }
     public static void track(int n)
