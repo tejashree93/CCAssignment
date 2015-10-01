@@ -1,0 +1,8 @@
+The file size is 20GB and each string is situated on a different line.
+It is not possible to load the entire file into the memory for sorting.
+We need to divide the file into separate chunks.
+The individual chunks can be sorted using any of the sorts e.g. bubble, insert, selection, quick, merge
+This depends on the requirement of running time and space complexity.
+If individual sub-chunks of the file are processed in parallel, then the computing can become faster.
+Once all the sub chunks are sorted, pairs of those chunks can be merged and sorted using merge sort.
+This complete process is called external sort.  // as explained by Prof. Ralf in Tuesday's lecture.
