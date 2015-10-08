@@ -1,0 +1,7 @@
+Take different number of pills from each of the 20 bottles.
+1 pill from Bottle1, 2 pills from Bottle2 and so on till 20 pills from Bottle20
+If all pills had a weight of 1gram then, total weight = n*(n+1)/2 where n is the number of pills on the scale.
+The actual weight on the scale will be greater than the expected total weight when all pills would have been 1gram.
+Hence, we will come to know which bottle contributed to the 0.1 gram pills by using the following formula:
+(actual weight - expected weight)/0.1
+expected weight = 20*(20+1)/2 = 210
