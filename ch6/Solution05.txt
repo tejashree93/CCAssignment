@@ -1,0 +1,7 @@
+let 5Quart jug be denoted by F and 3Quart jug be denoted by T.
+Fill F and let T be empty.
+Pour 3Quart water from F to T. There is 2Quart water left in F.
+Empty T, and pours 2Quart water from F to T. There is no more water in F and there is 2Quart water in T.
+Fill F again with 5Quart water.
+Fill T with water in F, ie. 1Quart water is transferred to T from F. T has 3Quart water while F has 4Quart water in it.
+Thus we get 4Quarts of water in F.
