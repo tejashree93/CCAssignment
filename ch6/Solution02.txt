@@ -1,0 +1,31 @@
+Given: p is the probability of making a shot
+
+Game 1:
+Probability of winning is p.
+
+Game 2:
+Let P(k,n) be the probability of making k shots out of n chances.
+Then, for Game 2, players win if they are able to score 2 out of 3 or 3 out of 3.
+P(win) = P(2,3) + P(3,3)
+
+Probability of scoring 2 shots = P(1st two scored and not 3rd) + P(Last 2 scored and not first) + P(first and last scored but not second)
+=p*p*(1-p) + (1-p)*p*p + p*p*(1-p)
+= 3p^2(1-p)
+
+Probability of scoring 3 on 3 = p^3
+
+Hence, P(win) = 3p^2(1-p) + p^3 = 3p^2 - 3p^3 + p^3 = 3p^2 - 2p^3
+
+Game 1 is preferred if P(Game1) > P(Game2)
+p > 3p^2 - 2p^3
+1 > 3p - 2p^2
+2p^2 - 3p + 1 > 0
+(2p-1)(p-1) > 0
+we know, p<1 hence, p-1 < 0  hence, both terms must be negative.
+2p-1 <0
+2p < 1
+p < 0.5
+
+hence, play Game 1 when 0 < p < 0.5
+and play game 2 when 0.5 < p < 1
+when p = 0, 0.5, 1;  P(Game1) = P(Game2), hence either of the games can be chosen.
