@@ -1,0 +1,6 @@
+Let n denote the nth door
+For each factor of n, door n is toggled. Factors include n and 1 also.
+By pairing factors, one for open and other for closed, if there is odd number then door n will be open.
+If n is a perfect square, then the number of factors is odd.
+Between 1 to 100 we have 10 perfect squares.
+Hence, there will be 10 open lockers after the procedure.
