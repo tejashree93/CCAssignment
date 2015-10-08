@@ -1,0 +1,9 @@
+In an 8 x 8 chessboard, we have 64 squares.
+There are 32 white and 32 black squares.
+If the 2 diagonally opposite corner squares are removed, we now are left with 62 squares.
+the 2 diagonally opposite corner squares are of the same color.
+Let the squares that were removed be of color black, then we now have 30 black squares and 32 white squares on the board.
+The domino can cover to adjacent squares. Hence, for the 31 dominos to cover the modified chess board, equal number of black and white squares are needed.
+i.e. 31 white and 31 black squares.
+but in our case number of black squares < number of white squares.
+Hence, we won't be able to cover the modified chess board.
