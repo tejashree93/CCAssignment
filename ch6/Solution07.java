@@ -21,6 +21,7 @@ If we keep collecting all this data together, and considering that the next chil
 Then G=50% probability and B=50% probability.
 Hence the gender ratio of the population (irrespective of how many boys were born before girls) will be 1:1 i.e 50% girls and 50% boys
 */
+// Referred to solution in book
 public class Solution07 {
     public static void main(String args[]) throws IOException
     {
