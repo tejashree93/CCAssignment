@@ -1,0 +1,19 @@
+*Referred to book solution
+Let there be n people on the island and let c people have blue eyes.
+we assume that c is always greater than 0.
+There has to be at least one person with blue eyes
+
+Case c=1,
+The person with blue eyes, looks at all the other people's eyes and sees that none of them have blue eyes.
+Since, there is at least one person with blue eyes and everyone knows of this fact, the person with blue eyes will come to know that he/she indeed has blue eyes by looking at every other person's eyes.
+Hence, the person will leave the same night.
+
+Case c=2,
+The 2 people with blue eyes see each other and now are unsure whether they themselves have blue eyes or not. 
+If none of them leaves the first night, then the other can conclude that he/she also has blue eyes and must also leave the island.
+Hence, they leave on the second night.
+
+Case c=k > 2 (generalizing),
+When there are more than 2 people with blue eyes a similar logic applies. The blue eyed people will leave on the kth night after waiting to check for k-1 nights whether even they have blue eyes or not.
+
+Hence, it will take c nights for c blue eyed people to leave the island.
