@@ -21,7 +21,7 @@ p > 3p^2 - 2p^3
 1 > 3p - 2p^2
 2p^2 - 3p + 1 > 0
 (2p-1)(p-1) > 0
-we know, p<1 hence, p-1 < 0  hence, both terms must be negative.
+we know, p<1 hence, p-1 < 0  hence, both terms must be negative for their product to be greater than 0.
 2p-1 <0
 2p < 1
 p < 0.5
