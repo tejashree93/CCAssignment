@@ -1,0 +1,16 @@
+In this problem, a linear search must be carried out in any case for floor n from 1 to 100 to search the floor from which if an egg is dropped breaks or not
+If we consider dropping egg from the 10th floor, then 20th and so on till 100th to find on which floor the egg breaks, we'll have deal with 
+9 + k number of drops where k is the number of drops we made on the way from 10th to 100th floor skipping to the next +10th floor.
+
+Hence, we must consider some other way to minimze the number of drops.
+We need to reduce the number of egg2 drops.
+We need to find a number X such that the drops for egg2 are reduced in every next step taken for egg1.
+Hence we first drop the egg 1 at floor X, then we drop egg1 at floor X+(X-1) and then on floor X+(X-1)+(X-2) and so on until we get the floor at which the egg breaks.
+Hence, X+(X-1)+(X-2)+...+1 = 100
+X(X+1)/2 = 100
+X is approximately equal to 14
+Let X=14
+If we consider the worst case, then egg1 will not have been broken till floor 99. hence, floor 100 is the desired N.
+In any case, the total number of egg drops for both eggs remains 14.
+Hence, first we consider 14thn floor to drop the egg, then the 27th floor, then 39th floor and so on till 99 and in worst case, one more drop to be sure that the egg breaks at 100.
+If an egg breaks at a certain floor A afer k drops, then we can find the floor N at which the egg breaks for the first time by searching 14-k times within the range.
