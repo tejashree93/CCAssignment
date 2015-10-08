@@ -1,0 +1,18 @@
+The ants can move in either clockwise or anti-clockwise direction.
+Each direction has a 50% possibility
+
+If all 3 ants move in the clockwise direction, then P(clockwise) = (1/2)^3
+If all 3 ants move in the anti - clockwise direction, then P(anti-clockwise) = (1/2)^3
+Probability for same direction = P(same direction) = P(anti-clockwise) + P(clockwise) = 2(1/2)^3 = 1/4
+
+The ants will collide with each other if they move towards each other.
+P(collision) = 1 - P(same direction) = 1 - 1/4 = 3/4
+
+By generalizing for n-vertices,
+n ants move in the clockwise direction, then P(clockwise) = (1/2)^n
+n ants move in the anti - clockwise direction, then P(anti-clockwise) = (1/2)^n
+Probability for same direction = P(same direction) = P(anti-clockwise) + P(clockwise) = 2(1/2)^n
+
+The ants will collide with each other if they move towards each other.
+P(collision) = 1 - P(same direction) = 1 - 2(1/2)^n = 1 - (1/2)^(n-1)
+ 
